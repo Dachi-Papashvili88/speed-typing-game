@@ -45,3 +45,29 @@ textarea {
 textarea:disabled {
     background-color: #a5a2a2;
 }
+
+@media (max-width: 550px){
+    textarea {
+        width: 90%;
+        height: 30vh;
+    }
+
+    button {
+        width: 80%;
+        padding: 20px 30px;
+        margin: 2.5em auto 2.5em auto;
+        font-size: 1.3rem;
+
+    }
+
+    h1 {
+        font-size: 1.7rem;
+        line-height: 2;
+        text-align:center;
+    }
+
+    h4 {
+        font-size: 1.3rem;
+    }
+   
+}
